@@ -1,0 +1,385 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.background {
+    font-family: Arial, Helvertica, sans-serif;
+    background-image: url('../images/slide-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.image {
+    top: 1%;
+    position: fixed;
+    margin-left: 2%;
+}
+
+.paragraph {
+    top: 20%;
+    position: fixed;
+    margin-left: 35%;
+    font-size: 20px;
+}
+
+.add {
+    color: #063a8a;
+}
+
+.home {
+    top: 54%;
+    /* top:18%; */
+    position: fixed;
+    margin-left: 0%;
+    /*  margin-left:3%; */
+    width: 1920px;
+    height: 550px;
+    /* width:1000px;
+    height:650px; */
+    padding: 10px;
+    border: 1px solid #eb4034;
+    background: #063a8a;
+    font-size: 28px;
+    font-family: Forte;
+    color: #f5f7fa;
+}
+
+.home1 {
+    font-size: 45px;
+    color: #b88216;
+}
+
+.home2 {
+    top: 25%;
+    position: fixed;
+    margin-left: 5%;
+    width: 850px;
+    height: 380px;
+    padding: 10px;
+    border: 1px solid #eb4034;
+    background: #063a8a;
+    font-size: 28px;
+    font-family: Forte;
+    color: #f5f7fa;
+}
+
+.heading {
+    font-size: 50px;
+    margin-left: 40%;
+    top: 25%;
+    position: fixed;
+    color: #200d8c;
+    font-family: Forte;
+}
+.heading1{
+     top: 35%;
+    position: fixed;
+    color: #e820ac;
+    font-size: 50px;
+    margin-left: 25%;
+    color: #e820ac;
+    font-family: Forte; 
+}
+
+.logout {
+    font-size: 40px;
+    margin-left: 40%;
+    top: 25%;
+    position: fixed;
+    color: #e820ac;
+    font-family: Forte;
+}
+
+nav {
+    background: radial-gradient(#3291a8, #fcf8f7);
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    margin-left: 1%;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    color: #b05e0c;
+    font-family: Lucida Calligraphy;
+}
+
+nav ul {
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: #f5f0f0;
+    font-family: Lucida Calligraphy;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    bottom: 0%;
+    background: radial-gradient(#3291a8, #fcf8f7);
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    padding: 10px;
+    text-align: center;
+}
+
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: #1eaee3;
+}
+
+.form {
+    top: 14%;
+    margin-left: 40%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.form1 {
+    top: 10%;
+    margin-left: 30%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f5f0f0;
+}
+
+.form3 {
+    top: 10%;
+    margin-left: 20%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f5f0f0;
+}
+
+.test {
+    top: 10%;
+    margin-left: 4%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f5f0f0;
+}
+
+.form2 {
+    top: 15%;
+    margin-left: 40%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f5f0f0;
+}
+
+#form3 {
+    top: 15%;
+    margin-left: 18%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f5f0f0;
+}
+
+.submit {
+    background-color: #355487;
+    color: #f5f0f0;
+    height: 50px;
+    width: 150px;
+}
+
+.submit1 {
+    background-color: #7fa80d;
+    color: #f5f0f0;
+    height: 50px;
+    width: 150px;
+}
+
+.submit2 {
+    background-color: #bf2c15;
+    color: #f5f0f0;
+    height: 50px;
+    width: 150px;
+}
+
+.star {
+    color: #eb4034;
+}
+
+.span {
+    display: inline-block;
+    float: left;
+    top: 45%;
+    position: fixed;
+    margin-left: 4%;
+}
+
+span div {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+
+#submit {
+    font-size: 35px;
+    margin-left: 60%;
+    /*background: radial-gradient(#fcf8f7,#355487);*/
+    background-color: #355487;
+    color: #f5f0f0;
+    height: 70px;
+    width: 200px;
+}
+
+#submit1 {
+    font-size: 30px;
+    background-color: #355487;
+    color: #f5f0f0;
+    height: 80px;
+    width: 300px;
+}
+
+.table {
+    top: 20%;
+    margin-left: 35%;
+    position: fixed;
+    align: center;
+    font-size: 30px;
+}
+
+.table1 {
+    top: 10%;
+    margin-left: 25%;
+    position: fixed;
+    align: center;
+    font-size: 15px;
+}
+
+.message1 {
+    color: #e04128;
+    align: center;
+}
+
+.successmessage {
+    top: 11%;
+    position: fixed;
+    margin-left: 42%;
+    align: center;
+    color: #69f542;
+    font-family: Algerian;
+}
+
+.failure {
+    top: 8%;
+    position: fixed;
+    color: #e04128;
+    margin-left: 45%;
+    align: center;
+    font-family: Algerian;
+}
+
+.mySlides {
+    display: none;
+}
+
+.home-images {
+    top: 8%;
+    position: fixed;
+    margin-left: 0%;
+    /* width: 850px;
+    height: 448px;*/
+}
+.form4 {
+    top: 15%;
+    margin-left: 16%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f5f0f0;
+}
+
+.form5 {
+    top: 20%;
+    margin-left: 40%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #f5f0f0;
+    font-size:24px;
+}
+
+.profile-admin {
+    top: 15%;
+    margin-left: 45%;
+    position: fixed;
+   
+    color: #d111be;
+    font-size:24px;
+}
