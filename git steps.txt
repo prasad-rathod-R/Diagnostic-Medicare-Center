@@ -1,0 +1,58 @@
+C:\Users\835514\vue-appointement>git init
+Initialized empty Git repository in C:/Users/835514/vue-appointement/.git/
+
+C:\Users\835514\vue-appointement>git add .
+
+C:\Users\835514\vue-appointement>git commit -m "vue"
+[master (root-commit) 073d5b7] vue
+ 38 files changed, 28475 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 babel.config.js
+ create mode 100644 db/db.json
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.html
+ create mode 100644 src/App.vue
+ create mode 100644 src/assets/25333-working-process.gif
+ create mode 100644 src/assets/28497-profile-icon.gif
+ create mode 100644 src/assets/47136-hospitals-and-city.gif
+ create mode 100644 src/assets/5214592.jpg
+ create mode 100644 src/assets/5417439.jpg
+ create mode 100644 src/assets/9974-sign-up-icon.gif
+ create mode 100644 src/assets/docdd.gif
+ create mode 100644 src/assets/doctor-gif.gif
+ create mode 100644 src/assets/giphy-rt.gif
+ create mode 100644 src/assets/giphy.gif
+ create mode 100644 src/assets/home-slide-1.png
+ create mode 100644 src/assets/home-slide2.png
+ create mode 100644 src/assets/home-slide3.png
+ create mode 100644 src/assets/home-slide4.png
+ create mode 100644 src/assets/img-doc.jpg
+ create mode 100644 src/assets/logo.png
+ create mode 100644 src/assets/mask.gif
+ create mode 100644 src/assets/signUp.gif
+ create mode 100644 src/components/About.vue
+ create mode 100644 src/components/Home.vue
+ create mode 100644 src/components/bookAppointment.vue
+ create mode 100644 src/components/bookingConfirmation.vue
+ create mode 100644 src/components/contactUs.vue
+ create mode 100644 src/components/signIn.vue
+ create mode 100644 src/components/signUp.vue
+ create mode 100644 src/components/viewAppointments.vue
+ create mode 100644 src/main.js
+ create mode 100644 src/router/index.js
+ create mode 100644 vue.config.js
+
+C:\Users\835514\vue-appointement>git branch -M main
+
+C:\Users\835514\vue-appointement>git remote add origin https://github.com/prasad-rathod-R/vue-appointement.git
+
+C:\Users\835514\vue-appointement>git push -u origin main
+Username for 'https://github.com': prasad-rathod-R
+Password for 'https://prasad-rathod-R@github.com':
+remote: Permission to prasad-rathod-R/vue-appointement.git denied to prasad-rathod-R.
+fatal: unable to access 'https://github.com/prasad-rathod-R/vue-appointement.git/': The requested URL returned error: 403
+
+C:\Users\835514\vue-appointement>
